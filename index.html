@@ -1,19 +1,120 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>FStack - Tailwind</title>
-  </head>
-  <body>
-    <div class="container mx-auto">
-        <header class="h-screen grid grid-cols-2">
-            <div class="bg-orange-600"></div>
-            <div class="bg-cyan-500"></div>
+</head>
 
+<body class="text-lg font-normal text-slate-600">
+    <div class="container mx-auto">
+        <header>
+            <section class="h-screen grid grid-cols-2 justify-items-center items-center">
+                <div>
+                    <img class="w-46 mb-1" src="images/logo.svg" alt="logo" />
+                    <h1 class="text-6xl text-pretty font-bold text-slate-800 tracking-tight mb-4">
+                        Become a fullstack developer with world best online bootcamp
+                    </h1>
+                    <p class="mb-8">
+                        Join our bootcamp and learn from industry experts at affordable
+                        prices.
+                    </p>
+                    <ul class="flex gap-6 text-white">
+                        <li class="bg-violet-900 hover:bg-violet-700 px-8 py-4 rounded-md inline-block">
+                            <a href="#">Get Started</a>
+                        </li>
+                        <li class="bg-slate-800 hover:bg-slate-600 px-8 py-4 rounded-md inline-block">
+                            <a href="#">Learn More</a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="w-3/4" src="images/user.svg" alt="user" />
+            </section>
         </header>
+
+        <main>
+            <section>
+                <div class="bg-white py-24 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl lg:text-center">
+                            <h2
+                                class="mt-2 text-4xl font-bold tracking-tight text-pretty text-slate-800 sm:text-5xl lg:text-balance">
+                                How it works
+                            </h2>
+                            <p class="mt-6">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                                aliquid tempora dolorem, distinctio itaque unde fuga beatae
+                                suscipit amet nobis odio voluptates.
+                            </p>
+                        </div>
+                        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+                            <dl
+                                class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                                <div class="relative pl-16">
+                                    <dt class="text-lg font-bold text-slate-800">
+                                        <div
+                                            class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-violet-900">
+                                            <ion-icon class="size-6 text-white" name="play-circle-outline"></ion-icon>
+                                        </div>
+                                        High quality
+                                    </dt>
+                                    <dd class="mt-2">
+                                        Morbi viverra dui mi arcu sed. Tellus semper adipiscing
+                                        suspendisse semper morbi. Odio urna massa nunc massa.
+                                    </dd>
+                                </div>
+                                <div class="relative pl-16">
+                                    <dt class="text-lg font-bold text-slate-800">
+                                        <div
+                                            class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-violet-900">
+                                            <ion-icon class="size-6 text-white" name="search-outline"></ion-icon>
+                                        </div>
+                                        Detailed
+                                    </dt>
+                                    <dd class="mt-2">
+                                        Sit quis amet rutrum tellus ullamcorper ultricies libero
+                                        dolor eget. Sem sodales gravida quam turpis enim lacus
+                                        amet.
+                                    </dd>
+                                </div>
+                                <div class="relative pl-16">
+                                    <dt class="text-lg font-bold text-slate-800">
+                                        <div
+                                            class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-violet-900">
+                                            <ion-icon class="size-6 text-white" name="list-outline"></ion-icon>
+                                        </div>
+                                        Structured
+                                    </dt>
+                                    <dd class="mt-2">
+                                        Quisque est vel vulputate cursus. Risus proin diam nunc
+                                        commodo. Lobortis auctor congue commodo diam neque.
+                                    </dd>
+                                </div>
+                                <div class="relative pl-16">
+                                    <dt class="text-lg font-bold text-slate-800">
+                                        <div
+                                            class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-violet-900">
+                                            <ion-icon class="size-6 text-white" name="document-outline"></ion-icon>
+                                        </div>
+                                        Certified
+                                    </dt>
+                                    <dd class="mt-2">
+                                        Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt
+                                        mattis aliquet hac quis. Id hac maecenas ac donec pharetra
+                                        eget.
+                                    </dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-    
-  </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
