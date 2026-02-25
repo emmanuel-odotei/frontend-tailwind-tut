@@ -8,13 +8,13 @@
     <title>FStack - Tailwind</title>
 </head>
 
-<body class="text-lg font-normal text-slate-600">
-    <div class="container mx-auto">
+<body class="text-md md:text-lg font-normal text-slate-600">
+    <div class="container mx-auto px-5 md:p-0">
         <header>
-            <section class="h-screen grid grid-cols-2 justify-items-center items-center">
+            <section class="md:h-screen grid md:grid-cols-2 justify-items-center items-center">
                 <div>
                     <img class="w-46 mb-1" src="images/logo.svg" alt="logo" />
-                    <h1 class="text-6xl text-pretty font-bold text-slate-800 tracking-tight mb-4">
+                    <h1 class="text-4xl md:text-6xl text-pretty font-bold text-slate-800 tracking-tight mb-4">
                         Become a fullstack developer with world best online bootcamp
                     </h1>
                     <p class="mb-8">
@@ -111,7 +111,19 @@
                     </div>
                 </div>
             </section>
+
+            <section class="flex justify-center mb-8 md:mb-64">
+                <div class="bg-violet-900 max-w-3xl rounded-md p-4 sm:p-8 md:p-12 text-white text-center">
+                    <h2 class="mt-2 text-4xl font-bold tracking-tight text-pretty mb-4">It's time to boost your career</h2>
+                    <p class="mb-4">Your new future is one click away</p>
+                    <a href="#" class="bg-white text-violet-900 hover:bg-violet-700 px-8 py-4 rounded-md inline-block">Get Started</a>
+                </div>
+            </section>
         </main>
+
+        <footer class="text-center">
+            Copyright &copy; FStack 2026
+        </footer>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
